@@ -127,4 +127,127 @@ alter table ThanNhan add constraint fk_nv_tn_id foreign key(ID_NhanVien) referen
 alter table DeAn add constraint fk_dv_da_id foreign key(ID_DonVi) references  DonVi (ID_DonVi)on delete cascade on update cascade
 alter table PhanCong add constraint fk_fc_nv_id foreign key(ID_NhanVien) references  NhanVien (ID_NhanVien)
 alter table PhanCong add constraint fk_fc_da_id foreign key(ID_DeAn) references  DeAn (ID_DeAn)
+-- xuat bang
+go
+create proc OutPutTable
+(
+	@core int
+)	
+as
+begin
+	if @core=1
+		select*from NhanVien
+	else if @core=2
+		select*from ThanNhan
+	else if @core=3
+		select*from DeAn
+	else if @core=4
+		select*from DonVi
+	else select *from PhanCong
+end
+go
+--Them vao bang
+create proc AddObject
+(
+	@core int,
+	@ID1 varchar(10),
+	@ID2 varchar(10),
+	@ID3 varchar(10),
+	@Name nvarchar(50),
+	@Place nvarchar(50),
+	@DoB date,
+	@Gender varchar(3),
+	@Relate varchar(3),
+	@Salary int,
+	@Time int
+)
+as
+begin
+	if @core=1
+		insert into NhanVien(ID_NhanVien,HoTen,NgaySinh,GioiTinh,DiaChi,Luong,ID_DonVi,ID_NQL)
+		values (@ID1,@Name,@DoB,@Gender,@Place,@Salary,@ID2,@ID3)
+	else if @core=2
+		insert into ThanNhan(ID_ThanNhan,ID_NhanVien,TenTN,GioiTinh,NgaySinh,QuanHe)
+		values(@ID1,@ID2,@Name,@Gender,@DoB,@Relate)
+	else if @core=3
+		insert into DeAn(ID_DeAn,TenDA,DiaDiem,ThoiGian,ID_DonVi)
+		values(@ID1,@Name,@Place,@Time,@ID2)
+	else if @core=4
+		insert into DonVi(ID_DonVi,TenDV,ID_TP)
+		values(@ID1,@Name,@ID2)
+	else insert into PhanCong(ID_NhanVien,ID_DeAn,ThoiGian)
+		values (@ID1,@ID2,@Time)
+end
+--Xoa trong bang
+go
+create proc DeleteObject
+(
+	@core int,
+	@ID1 varchar(10),
+	@ID2 varchar(10)
+)
+as
+begin
+	if @core=1
+		delete from NhanVien where ID_NhanVien=@ID1
+	else if @core=2
+		delete from ThanNhan where ID_ThanNhan=@ID1
+	else if @core=3
+		delete from DeAn where ID_DeAn =@ID1
+	else if @core=4
+		delete from DonVi where ID_DonVi =@ID1
+	else delete from PhanCong where ID_DeAn=@ID1 and ID_NhanVien=@ID2
+end
+go
+--Cap nhap
+create proc EditObject
+(
+	@core int,
+	@ID1 varchar(10),
+	@ID2 varchar(10),
+	@ID3 varchar(10),
+	@Name nvarchar(50),
+	@Place nvarchar(50),
+	@DoB date,
+	@Gender varchar(3),
+	@Relate varchar(3),
+	@Salary int,
+	@Time int
+)
+as
+begin
+	if @core=1
+		update NhanVien set HoTen=@Name,NgaySinh=@DoB,GioiTinh=@Gender,DiaChi=@Place,Luong=@Salary,ID_DonVi=@ID2,ID_NQL=@ID3
+		where ID_NhanVien=@ID1 
+	else if @core=2
+		update ThanNhan set ID_NhanVien=@ID2,TenTN=@Name,GioiTinh=@Gender,NgaySinh=@DoB,QuanHe=@Relate
+		where ID_ThanNhan=@ID1
+	else if @core=3
+		update DeAn set TenDA=@Name,DiaDiem=@Place,ThoiGian=@Time,ID_DonVi=@ID2
+		where ID_DeAn=@ID1
+	else if @core=4
+		update DonVi set TenDV=@Name,ID_TP=@ID2
+		where ID_DonVi=@ID1
+	else update PhanCong set ID_DeAn=@ID2,ThoiGian=@Time
+		where ID_NhanVien=@ID1
+end
+go
+--TimKiem
+create proc FindObject
+(
+	@core int,
+	@Part nvarchar(50)
+)
+as
+begin
+	if @core=1
+		select distinct *from NhanVien where ID_NhanVien like ('%'+@Part+'%') or HoTen like ('%'+@Part+'%') or GioiTinh like ('%'+@Part+'%') or DiaChi like ('%'+@Part+'%') or Luong like ('%'+@Part+'%') or NgaySinh like ('%'+@Part+'%')
+	else if @core=2
+		select distinct*from ThanNhan where ID_ThanNhan like ('%'+@Part+'%') or TenTN like ('%'+@Part+'%') or GioiTinh like ('%'+@Part+'%') or QuanHe like ('%'+@Part+'%') or NgaySinh like ('%'+@Part+'%') or ID_NhanVien like ('%'+@Part+'%')
+	else if @core=3
+		select distinct*from DeAn where ID_DeAn like ('%'+@Part+'%') or ID_DonVi like ('%'+@Part+'%') or TenDA like ('%'+@Part+'%') or DiaDiem like ('%'+@Part+'%')
+	else if @core=4
+		select distinct*from DonVi where ID_DonVi like ('%'+@Part+'%') or TenDV like ('%'+@Part+'%') 
+	else select distinct*from PhanCong where ID_DeAn like ('%'+@Part+'%') or ID_NhanVien like ('%'+@Part+'%')
+end
 go
