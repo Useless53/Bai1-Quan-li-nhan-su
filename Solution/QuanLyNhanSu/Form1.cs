@@ -35,7 +35,10 @@ namespace QuanLyNhanSu
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            frmDeAn frm = new frmDeAn();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
         }
 
         private void button4_Click(object sender, EventArgs e)
