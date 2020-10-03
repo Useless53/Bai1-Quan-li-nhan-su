@@ -71,7 +71,8 @@ values
 ('NV007','NGUYEN QUANG TRUONG','6/6/1996','Nam','Dia chi 7',6,'DV007','NV007'),
 ('NV008','NGO HONG QUAN','5/5/1995','Nu','Dia chi 8',6,'DV008','NV008'),
 ('NV009','VO KHUONG LINH','4/4/1994','Nam','Dia chi 9',18,'DV009','NV009'),
-('NV010','PHI XUAN DAO','3/3/1993','Nu','Dia chi 10',15,'DV010','NV010')
+('NV010','PHI XUAN DAO','3/3/1993','Nu','Dia chi 10',15,'DV010','NV010'),
+('NV010','ANH SAU NAY','3/3/1999','Nu','Dia chi 11',15,'DV011','NV011')
 go
 insert into DonVi(ID_DonVi,TenDV,ID_TP)
 values 
