@@ -56,7 +56,10 @@ namespace QuanLyNhanSu
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            frmPhanCong frm = new frmPhanCong();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
         }
 
         private void button6_Click(object sender, EventArgs e)
