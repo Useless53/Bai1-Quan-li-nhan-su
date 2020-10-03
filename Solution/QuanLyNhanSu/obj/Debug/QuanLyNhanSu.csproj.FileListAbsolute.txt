@@ -54,3 +54,5 @@ C:\Users\Admin\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\D
 C:\Users\Admin\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 C:\Users\Admin\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
 C:\Users\Admin\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmThanNhan.resources
+C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmDonVi.resources
+C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmThanNhan.resources
