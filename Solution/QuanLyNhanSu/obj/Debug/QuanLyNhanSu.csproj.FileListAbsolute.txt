@@ -29,3 +29,15 @@ C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\D
 C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.CoreCompileInputs.cache
 C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\giang\OneDrive\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojAssemblyReference.cache
+C:\Users\giang\OneDrive\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frm_Start.resources
+C:\Users\giang\OneDrive\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmDonVi.resources
+C:\Users\giang\OneDrive\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmNhanVien.resources
+C:\Users\giang\OneDrive\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+C:\Users\giang\OneDrive\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.cache
+C:\Users\giang\OneDrive\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.CoreCompileInputs.cache
+C:\Users\giang\OneDrive\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\giang\OneDrive\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\giang\OneDrive\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\giang\OneDrive\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+C:\Users\giang\OneDrive\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb

@@ -28,7 +28,7 @@ namespace QuanLyNhanSu
         private void button2_Click(object sender, EventArgs e)
         {
 
-        }
+          }
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -37,7 +37,10 @@ namespace QuanLyNhanSu
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            frmDonVi frm = new frmDonVi();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
         }
 
         private void frm_Start_Load(object sender, EventArgs e)
