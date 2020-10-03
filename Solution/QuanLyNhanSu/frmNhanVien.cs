@@ -278,5 +278,15 @@ namespace QuanLyNhanSu
         {
 
         }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radM_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
