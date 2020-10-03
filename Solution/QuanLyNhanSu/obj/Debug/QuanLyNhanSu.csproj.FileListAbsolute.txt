@@ -8,3 +8,13 @@ C:\Users\Admin\Documents\GitHub\HOANG-TRAN-TRUNG-KIEN\Solution\QuanLyNhanSu\bin\
 C:\Users\Admin\Documents\GitHub\HOANG-TRAN-TRUNG-KIEN\Solution\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
 C:\Users\Admin\Documents\GitHub\HOANG-TRAN-TRUNG-KIEN\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 C:\Users\Admin\Documents\GitHub\HOANG-TRAN-TRUNG-KIEN\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frm_Start.resources
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.cache
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.CoreCompileInputs.cache
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmNhanVien.resources

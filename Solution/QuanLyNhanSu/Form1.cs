@@ -19,7 +19,10 @@ namespace QuanLyNhanSu
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            frmNhanVien frm = new frmNhanVien();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
         }
 
         private void button2_Click(object sender, EventArgs e)
