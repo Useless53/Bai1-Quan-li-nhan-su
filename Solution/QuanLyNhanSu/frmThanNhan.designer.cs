@@ -78,7 +78,7 @@
             // 
             // listView1
             // 
-            this.listView1.BackColor = System.Drawing.Color.White;
+            this.listView1.BackColor = System.Drawing.Color.SteelBlue;
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
@@ -108,8 +108,8 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.radF);
             this.panel3.Controls.Add(this.pictureBox1);
             this.panel3.Controls.Add(this.pictureBox2);
@@ -150,17 +150,19 @@
             this.pictureBox1.Location = new System.Drawing.Point(273, 171);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 38);
+            this.pictureBox1.Size = new System.Drawing.Size(26, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::QuanLyNhanSu.Properties.Resources.male_symbol;
-            this.pictureBox2.Location = new System.Drawing.Point(188, 171);
+            this.pictureBox2.Location = new System.Drawing.Point(187, 172);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(33, 38);
+            this.pictureBox2.Size = new System.Drawing.Size(26, 33);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox2.TabIndex = 22;
             this.pictureBox2.TabStop = false;
             // 
@@ -177,6 +179,7 @@
             // 
             // textRelationship
             // 
+            this.textRelationship.BackColor = System.Drawing.Color.White;
             this.textRelationship.Location = new System.Drawing.Point(164, 262);
             this.textRelationship.Margin = new System.Windows.Forms.Padding(4);
             this.textRelationship.Name = "textRelationship";
@@ -186,6 +189,7 @@
             // 
             // textID2
             // 
+            this.textID2.BackColor = System.Drawing.Color.White;
             this.textID2.Location = new System.Drawing.Point(164, 224);
             this.textID2.Margin = new System.Windows.Forms.Padding(4);
             this.textID2.Name = "textID2";
@@ -195,6 +199,7 @@
             // 
             // textDoB
             // 
+            this.textDoB.BackColor = System.Drawing.Color.White;
             this.textDoB.Location = new System.Drawing.Point(164, 137);
             this.textDoB.Margin = new System.Windows.Forms.Padding(4);
             this.textDoB.Name = "textDoB";
@@ -204,6 +209,7 @@
             // 
             // textName
             // 
+            this.textName.BackColor = System.Drawing.Color.White;
             this.textName.Location = new System.Drawing.Point(164, 98);
             this.textName.Margin = new System.Windows.Forms.Padding(4);
             this.textName.Name = "textName";
@@ -213,6 +219,7 @@
             // 
             // textID
             // 
+            this.textID.BackColor = System.Drawing.Color.White;
             this.textID.Location = new System.Drawing.Point(164, 60);
             this.textID.Margin = new System.Windows.Forms.Padding(4);
             this.textID.Name = "textID";
@@ -228,9 +235,9 @@
             this.label7.Location = new System.Drawing.Point(21, 225);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(137, 19);
+            this.label7.Size = new System.Drawing.Size(104, 19);
             this.label7.TabIndex = 22;
-            this.label7.Text = "Mã số nhân viên :";
+            this.label7.Text = "ID Employee";
             // 
             // label5
             // 
@@ -240,9 +247,9 @@
             this.label5.Location = new System.Drawing.Point(21, 138);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 19);
+            this.label5.Size = new System.Drawing.Size(106, 19);
             this.label5.TabIndex = 21;
-            this.label5.Text = "Ngày sinh : ";
+            this.label5.Text = "Date of Birth";
             // 
             // label8
             // 
@@ -252,9 +259,9 @@
             this.label8.Location = new System.Drawing.Point(21, 263);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(110, 19);
+            this.label8.Size = new System.Drawing.Size(104, 19);
             this.label8.TabIndex = 19;
-            this.label8.Text = "Mối quan hệ :";
+            this.label8.Text = "Relationship";
             // 
             // label6
             // 
@@ -264,9 +271,9 @@
             this.label6.Location = new System.Drawing.Point(21, 175);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(88, 19);
+            this.label6.Size = new System.Drawing.Size(65, 19);
             this.label6.TabIndex = 18;
-            this.label6.Text = "Giới tính :";
+            this.label6.Text = "Gender";
             // 
             // label4
             // 
@@ -276,9 +283,9 @@
             this.label4.Location = new System.Drawing.Point(21, 100);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 19);
+            this.label4.Size = new System.Drawing.Size(51, 19);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Tên :";
+            this.label4.Text = "Name";
             // 
             // label3
             // 
@@ -288,27 +295,27 @@
             this.label3.Location = new System.Drawing.Point(21, 62);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 19);
+            this.label3.Size = new System.Drawing.Size(27, 19);
             this.label3.TabIndex = 16;
-            this.label3.Text = "Mã số :";
+            this.label3.Text = "ID";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(129, 14);
+            this.label2.Location = new System.Drawing.Point(120, 14);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 23);
+            this.label2.Size = new System.Drawing.Size(135, 26);
             this.label2.TabIndex = 15;
-            this.label2.Text = "Thông tin";
+            this.label2.Text = "Information";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.panel4.BackColor = System.Drawing.Color.Transparent;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.textSearch);
             this.panel4.Controls.Add(this.butSearch);
@@ -327,6 +334,7 @@
             // 
             // textSearch
             // 
+            this.textSearch.BackColor = System.Drawing.Color.White;
             this.textSearch.Location = new System.Drawing.Point(199, 46);
             this.textSearch.Margin = new System.Windows.Forms.Padding(4);
             this.textSearch.Name = "textSearch";
@@ -336,24 +344,26 @@
             // butSearch
             // 
             this.butSearch.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.butSearch.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.butSearch.Location = new System.Drawing.Point(199, 85);
             this.butSearch.Margin = new System.Windows.Forms.Padding(4);
             this.butSearch.Name = "butSearch";
             this.butSearch.Size = new System.Drawing.Size(136, 37);
             this.butSearch.TabIndex = 5;
-            this.butSearch.Text = "Tìm kiếm";
+            this.butSearch.Text = "Search Mode";
             this.butSearch.UseVisualStyleBackColor = true;
             this.butSearch.Click += new System.EventHandler(this.butSearch_Click);
             // 
             // butDel
             // 
             this.butDel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.butDel.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butDel.Location = new System.Drawing.Point(96, 85);
             this.butDel.Margin = new System.Windows.Forms.Padding(4);
             this.butDel.Name = "butDel";
             this.butDel.Size = new System.Drawing.Size(89, 37);
             this.butDel.TabIndex = 5;
-            this.butDel.Text = "Xoá";
+            this.butDel.Text = "Delete";
             this.butDel.UseVisualStyleBackColor = true;
             this.butDel.Click += new System.EventHandler(this.butDel_Click);
             // 
@@ -361,12 +371,12 @@
             // 
             this.radAdd.AutoSize = true;
             this.radAdd.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radAdd.Location = new System.Drawing.Point(21, 65);
+            this.radAdd.Location = new System.Drawing.Point(21, 67);
             this.radAdd.Margin = new System.Windows.Forms.Padding(4);
             this.radAdd.Name = "radAdd";
-            this.radAdd.Size = new System.Drawing.Size(71, 23);
+            this.radAdd.Size = new System.Drawing.Size(59, 23);
             this.radAdd.TabIndex = 4;
-            this.radAdd.Text = "Thêm";
+            this.radAdd.Text = "Add";
             this.radAdd.UseVisualStyleBackColor = true;
             this.radAdd.CheckedChanged += new System.EventHandler(this.radAdd_CheckedChanged);
             // 
@@ -377,9 +387,9 @@
             this.radEdit.Location = new System.Drawing.Point(21, 91);
             this.radEdit.Margin = new System.Windows.Forms.Padding(4);
             this.radEdit.Name = "radEdit";
-            this.radEdit.Size = new System.Drawing.Size(57, 23);
+            this.radEdit.Size = new System.Drawing.Size(62, 23);
             this.radEdit.TabIndex = 4;
-            this.radEdit.Text = "Sửa";
+            this.radEdit.Text = "Edit";
             this.radEdit.UseVisualStyleBackColor = true;
             this.radEdit.CheckedChanged += new System.EventHandler(this.radAdd_CheckedChanged);
             // 
@@ -387,25 +397,26 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(137, 14);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(150, 14);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 23);
+            this.label1.Size = new System.Drawing.Size(71, 26);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Thao tác";
+            this.label1.Text = "Mode";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnFree
             // 
             this.btnFree.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnFree.Enabled = false;
+            this.btnFree.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFree.Location = new System.Drawing.Point(97, 41);
             this.btnFree.Margin = new System.Windows.Forms.Padding(4);
             this.btnFree.Name = "btnFree";
             this.btnFree.Size = new System.Drawing.Size(89, 37);
             this.btnFree.TabIndex = 0;
-            this.btnFree.Text = "Xem";
+            this.btnFree.Text = "View";
             this.btnFree.UseVisualStyleBackColor = true;
             this.btnFree.Click += new System.EventHandler(this.btnFree_Click);
             // 
@@ -418,10 +429,10 @@
             this.radView.Location = new System.Drawing.Point(21, 41);
             this.radView.Margin = new System.Windows.Forms.Padding(4);
             this.radView.Name = "radView";
-            this.radView.Size = new System.Drawing.Size(64, 23);
+            this.radView.Size = new System.Drawing.Size(67, 23);
             this.radView.TabIndex = 2;
             this.radView.TabStop = true;
-            this.radView.Text = "Xem";
+            this.radView.Text = "View";
             this.radView.UseVisualStyleBackColor = false;
             this.radView.CheckedChanged += new System.EventHandler(this.radAdd_CheckedChanged);
             // 
@@ -429,6 +440,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.CancelButton = this.butDel;
             this.ClientSize = new System.Drawing.Size(844, 527);
             this.Controls.Add(this.panel2);
