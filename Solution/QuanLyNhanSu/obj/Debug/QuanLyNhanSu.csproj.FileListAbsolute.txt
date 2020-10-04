@@ -60,3 +60,8 @@ C:\Users\Admin\Documents\GitHub\HOANG-TRAN-TRUNG-KIEN\Solution\QuanLyNhanSu\obj\
 C:\Users\Admin\Documents\GitHub\HOANG-TRAN-TRUNG-KIEN\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmDonVi.resources
 C:\Users\Admin\Documents\GitHub\HOANG-TRAN-TRUNG-KIEN\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmNhanVien.resources
 C:\Users\Admin\Documents\GitHub\HOANG-TRAN-TRUNG-KIEN\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmThanNhan.resources
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojAssemblyReference.cache
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmDeAn.resources
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmDonVi.resources
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmThanNhan.resources
+C:\Users\vominhkhai\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmPhanCong.resources
