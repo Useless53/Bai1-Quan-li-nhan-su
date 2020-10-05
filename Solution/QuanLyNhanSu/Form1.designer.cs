@@ -138,7 +138,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label3.Location = new System.Drawing.Point(71, 137);
+            this.label3.Location = new System.Drawing.Point(71, 290);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(265, 26);
             this.label3.TabIndex = 6;
@@ -149,7 +149,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label4.Location = new System.Drawing.Point(71, 187);
+            this.label4.Location = new System.Drawing.Point(71, 188);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(305, 26);
             this.label4.TabIndex = 7;
@@ -160,7 +160,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label5.Location = new System.Drawing.Point(71, 242);
+            this.label5.Location = new System.Drawing.Point(71, 137);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(355, 26);
             this.label5.TabIndex = 8;
@@ -171,7 +171,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label6.Location = new System.Drawing.Point(71, 294);
+            this.label6.Location = new System.Drawing.Point(71, 237);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(278, 26);
             this.label6.TabIndex = 9;
