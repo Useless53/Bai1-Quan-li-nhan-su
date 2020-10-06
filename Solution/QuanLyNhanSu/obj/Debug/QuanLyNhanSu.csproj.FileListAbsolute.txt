@@ -24,7 +24,6 @@ C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\bin\D
 C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojAssemblyReference.cache
 C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frm_Start.resources
 C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.frmNhanVien.resources
-C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
 C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.cache
 C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.CoreCompileInputs.cache
 C:\Users\thong\Documents\GitHub\Bai1-Quan-li-nhan-su\Solution\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
