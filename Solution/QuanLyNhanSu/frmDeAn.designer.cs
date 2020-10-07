@@ -63,9 +63,10 @@
             // 
             this.panel2.Controls.Add(this.listView1);
             this.panel2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.panel2.Location = new System.Drawing.Point(25, 31);
+            this.panel2.Location = new System.Drawing.Point(33, 38);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(243, 224);
+            this.panel2.Size = new System.Drawing.Size(324, 276);
             this.panel2.TabIndex = 20;
             // 
             // listView1
@@ -80,9 +81,10 @@
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(0, 0);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(243, 224);
+            this.listView1.Size = new System.Drawing.Size(324, 276);
             this.listView1.TabIndex = 15;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -114,59 +116,65 @@
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.panel3.Location = new System.Drawing.Point(309, 31);
+            this.panel3.Location = new System.Drawing.Point(412, 38);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(269, 224);
+            this.panel3.Size = new System.Drawing.Size(357, 275);
             this.panel3.TabIndex = 19;
             // 
             // textID2
             // 
             this.textID2.BackColor = System.Drawing.Color.White;
             this.textID2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.textID2.Location = new System.Drawing.Point(99, 139);
+            this.textID2.Location = new System.Drawing.Point(132, 171);
+            this.textID2.Margin = new System.Windows.Forms.Padding(4);
             this.textID2.Name = "textID2";
             this.textID2.ReadOnly = true;
-            this.textID2.Size = new System.Drawing.Size(140, 23);
+            this.textID2.Size = new System.Drawing.Size(185, 27);
             this.textID2.TabIndex = 31;
             // 
             // textTime
             // 
             this.textTime.BackColor = System.Drawing.Color.White;
             this.textTime.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.textTime.Location = new System.Drawing.Point(99, 170);
+            this.textTime.Location = new System.Drawing.Point(132, 209);
+            this.textTime.Margin = new System.Windows.Forms.Padding(4);
             this.textTime.Name = "textTime";
             this.textTime.ReadOnly = true;
-            this.textTime.Size = new System.Drawing.Size(140, 23);
+            this.textTime.Size = new System.Drawing.Size(185, 27);
             this.textTime.TabIndex = 28;
             // 
             // textPlace
             // 
             this.textPlace.BackColor = System.Drawing.Color.White;
             this.textPlace.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.textPlace.Location = new System.Drawing.Point(99, 108);
+            this.textPlace.Location = new System.Drawing.Point(132, 133);
+            this.textPlace.Margin = new System.Windows.Forms.Padding(4);
             this.textPlace.Name = "textPlace";
             this.textPlace.ReadOnly = true;
-            this.textPlace.Size = new System.Drawing.Size(140, 23);
+            this.textPlace.Size = new System.Drawing.Size(185, 27);
             this.textPlace.TabIndex = 27;
             // 
             // textName
             // 
             this.textName.BackColor = System.Drawing.Color.White;
             this.textName.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.textName.Location = new System.Drawing.Point(99, 78);
+            this.textName.Location = new System.Drawing.Point(132, 96);
+            this.textName.Margin = new System.Windows.Forms.Padding(4);
             this.textName.Name = "textName";
             this.textName.ReadOnly = true;
-            this.textName.Size = new System.Drawing.Size(140, 23);
+            this.textName.Size = new System.Drawing.Size(185, 27);
             this.textName.TabIndex = 25;
             // 
             // textID
             // 
             this.textID.BackColor = System.Drawing.Color.White;
             this.textID.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.textID.Location = new System.Drawing.Point(99, 47);
+            this.textID.Location = new System.Drawing.Point(132, 58);
+            this.textID.Margin = new System.Windows.Forms.Padding(4);
             this.textID.Name = "textID";
             this.textID.ReadOnly = true;
-            this.textID.Size = new System.Drawing.Size(140, 23);
+            this.textID.Size = new System.Drawing.Size(185, 27);
             this.textID.TabIndex = 24;
             // 
             // label9
@@ -174,9 +182,10 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(29, 142);
+            this.label9.Location = new System.Drawing.Point(39, 175);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 17);
+            this.label9.Size = new System.Drawing.Size(82, 19);
             this.label9.TabIndex = 23;
             this.label9.Text = "Mã đơn vị";
             // 
@@ -185,9 +194,10 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(29, 173);
+            this.label10.Location = new System.Drawing.Point(39, 213);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(66, 17);
+            this.label10.Size = new System.Drawing.Size(79, 19);
             this.label10.TabIndex = 20;
             this.label10.Text = "Thời gian";
             // 
@@ -196,9 +206,10 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(29, 111);
+            this.label8.Location = new System.Drawing.Point(39, 137);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(63, 17);
+            this.label8.Size = new System.Drawing.Size(76, 19);
             this.label8.TabIndex = 19;
             this.label8.Text = "Địa điểm";
             // 
@@ -207,9 +218,10 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(29, 81);
+            this.label4.Location = new System.Drawing.Point(39, 100);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 17);
+            this.label4.Size = new System.Drawing.Size(78, 19);
             this.label4.TabIndex = 17;
             this.label4.Text = "Tên đề án";
             // 
@@ -218,9 +230,10 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(29, 50);
+            this.label3.Location = new System.Drawing.Point(39, 62);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 17);
+            this.label3.Size = new System.Drawing.Size(75, 19);
             this.label3.TabIndex = 16;
             this.label3.Text = "Mã đề án";
             // 
@@ -229,9 +242,10 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(95, 13);
+            this.label2.Location = new System.Drawing.Point(127, 16);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 19);
+            this.label2.Size = new System.Drawing.Size(90, 23);
             this.label2.TabIndex = 15;
             this.label2.Text = "Thông tin";
             // 
@@ -248,26 +262,29 @@
             this.panel4.Controls.Add(this.btnFree);
             this.panel4.Controls.Add(this.radView);
             this.panel4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.panel4.Location = new System.Drawing.Point(152, 278);
+            this.panel4.Location = new System.Drawing.Point(171, 322);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(269, 150);
+            this.panel4.Size = new System.Drawing.Size(357, 184);
             this.panel4.TabIndex = 18;
             // 
             // textSearch
             // 
             this.textSearch.BackColor = System.Drawing.Color.White;
             this.textSearch.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.textSearch.Location = new System.Drawing.Point(152, 60);
+            this.textSearch.Location = new System.Drawing.Point(203, 75);
+            this.textSearch.Margin = new System.Windows.Forms.Padding(4);
             this.textSearch.Name = "textSearch";
-            this.textSearch.Size = new System.Drawing.Size(102, 23);
+            this.textSearch.Size = new System.Drawing.Size(136, 27);
             this.textSearch.TabIndex = 25;
             // 
             // butSearch
             // 
             this.butSearch.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.butSearch.Location = new System.Drawing.Point(152, 97);
+            this.butSearch.Location = new System.Drawing.Point(203, 119);
+            this.butSearch.Margin = new System.Windows.Forms.Padding(4);
             this.butSearch.Name = "butSearch";
-            this.butSearch.Size = new System.Drawing.Size(102, 30);
+            this.butSearch.Size = new System.Drawing.Size(136, 37);
             this.butSearch.TabIndex = 5;
             this.butSearch.Text = "Tìm kiếm";
             this.butSearch.UseVisualStyleBackColor = true;
@@ -276,9 +293,10 @@
             // butDel
             // 
             this.butDel.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.butDel.Location = new System.Drawing.Point(79, 97);
+            this.butDel.Location = new System.Drawing.Point(105, 119);
+            this.butDel.Margin = new System.Windows.Forms.Padding(4);
             this.butDel.Name = "butDel";
-            this.butDel.Size = new System.Drawing.Size(67, 30);
+            this.butDel.Size = new System.Drawing.Size(89, 37);
             this.butDel.TabIndex = 5;
             this.butDel.Text = "Xóa";
             this.butDel.UseVisualStyleBackColor = true;
@@ -288,9 +306,10 @@
             // 
             this.radAdd.AutoSize = true;
             this.radAdd.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radAdd.Location = new System.Drawing.Point(22, 81);
+            this.radAdd.Location = new System.Drawing.Point(29, 100);
+            this.radAdd.Margin = new System.Windows.Forms.Padding(4);
             this.radAdd.Name = "radAdd";
-            this.radAdd.Size = new System.Drawing.Size(60, 21);
+            this.radAdd.Size = new System.Drawing.Size(71, 23);
             this.radAdd.TabIndex = 4;
             this.radAdd.Text = "Thêm";
             this.radAdd.UseVisualStyleBackColor = true;
@@ -300,9 +319,10 @@
             // 
             this.radEdit.AutoSize = true;
             this.radEdit.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radEdit.Location = new System.Drawing.Point(22, 107);
+            this.radEdit.Location = new System.Drawing.Point(29, 132);
+            this.radEdit.Margin = new System.Windows.Forms.Padding(4);
             this.radEdit.Name = "radEdit";
-            this.radEdit.Size = new System.Drawing.Size(49, 21);
+            this.radEdit.Size = new System.Drawing.Size(57, 23);
             this.radEdit.TabIndex = 4;
             this.radEdit.Text = "Sửa";
             this.radEdit.UseVisualStyleBackColor = true;
@@ -313,9 +333,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(116, 18);
+            this.label1.Location = new System.Drawing.Point(155, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 19);
+            this.label1.Size = new System.Drawing.Size(69, 23);
             this.label1.TabIndex = 1;
             this.label1.Text = "Chế độ";
             // 
@@ -323,9 +344,10 @@
             // 
             this.btnFree.Enabled = false;
             this.btnFree.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnFree.Location = new System.Drawing.Point(79, 56);
+            this.btnFree.Location = new System.Drawing.Point(105, 69);
+            this.btnFree.Margin = new System.Windows.Forms.Padding(4);
             this.btnFree.Name = "btnFree";
-            this.btnFree.Size = new System.Drawing.Size(67, 30);
+            this.btnFree.Size = new System.Drawing.Size(89, 37);
             this.btnFree.TabIndex = 0;
             this.btnFree.Text = "Xem";
             this.btnFree.UseVisualStyleBackColor = true;
@@ -336,9 +358,10 @@
             this.radView.AutoSize = true;
             this.radView.Checked = true;
             this.radView.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radView.Location = new System.Drawing.Point(22, 55);
+            this.radView.Location = new System.Drawing.Point(29, 68);
+            this.radView.Margin = new System.Windows.Forms.Padding(4);
             this.radView.Name = "radView";
-            this.radView.Size = new System.Drawing.Size(55, 21);
+            this.radView.Size = new System.Drawing.Size(64, 23);
             this.radView.TabIndex = 2;
             this.radView.TabStop = true;
             this.radView.Text = "Xem";
@@ -347,14 +370,15 @@
             // 
             // frmDeAn
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(604, 440);
+            this.ClientSize = new System.Drawing.Size(805, 513);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDeAn";
             this.Text = "Đề Án";
             this.Load += new System.EventHandler(this.frmDeAn_Load);

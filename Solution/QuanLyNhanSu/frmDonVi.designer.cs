@@ -221,10 +221,10 @@
             // 
             this.textSearch.BackColor = System.Drawing.Color.White;
             this.textSearch.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.textSearch.Location = new System.Drawing.Point(205, 52);
+            this.textSearch.Location = new System.Drawing.Point(205, 60);
             this.textSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textSearch.Name = "textSearch";
-            this.textSearch.Size = new System.Drawing.Size(135, 27);
+            this.textSearch.Size = new System.Drawing.Size(136, 27);
             this.textSearch.TabIndex = 25;
             // 
             // butSearch
@@ -268,7 +268,7 @@
             // 
             this.radEdit.AutoSize = true;
             this.radEdit.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radEdit.Location = new System.Drawing.Point(20, 110);
+            this.radEdit.Location = new System.Drawing.Point(21, 111);
             this.radEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radEdit.Name = "radEdit";
             this.radEdit.Size = new System.Drawing.Size(64, 27);
@@ -293,10 +293,10 @@
             // 
             this.btnFree.Enabled = false;
             this.btnFree.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnFree.Location = new System.Drawing.Point(107, 47);
+            this.btnFree.Location = new System.Drawing.Point(107, 53);
             this.btnFree.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnFree.Name = "btnFree";
-            this.btnFree.Size = new System.Drawing.Size(89, 34);
+            this.btnFree.Size = new System.Drawing.Size(89, 37);
             this.btnFree.TabIndex = 0;
             this.btnFree.Text = "Xem";
             this.btnFree.UseVisualStyleBackColor = true;
