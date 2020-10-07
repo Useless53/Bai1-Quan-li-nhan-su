@@ -12,16 +12,17 @@ namespace QuanLyNhanSu
 {
     public partial class frmPhanCong : Form
     {
+
         public frmPhanCong()
         {
             InitializeComponent();
         }
-
+        private string IDstring1;
+        private string IDstring2;
         private DataTable table;
         private DataTable table1;
         private DataTable table2;
-        private string IDstring1;
-        private string IDstring2;
+
         private Connection connector = new Connection();
 
         private void reset()
