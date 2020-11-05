@@ -35,8 +35,6 @@
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel3 = new System.Windows.Forms.Panel();
             this.radF = new System.Windows.Forms.RadioButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.radM = new System.Windows.Forms.RadioButton();
             this.textRelationship = new System.Windows.Forms.TextBox();
             this.textID2 = new System.Windows.Forms.TextBox();
@@ -59,17 +57,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnFree = new System.Windows.Forms.Button();
             this.radView = new System.Windows.Forms.RadioButton();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.listView1);
-            this.panel2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.panel2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.panel2.Location = new System.Drawing.Point(59, 46);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
@@ -98,21 +96,21 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Familier ID";
+            this.columnHeader1.Text = "Mã thân nhân";
             this.columnHeader1.Width = 83;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Familier Name";
+            this.columnHeader2.Text = "Tên thân nhân";
             this.columnHeader2.Width = 155;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.label10);
+            this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.radF);
-            this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.radM);
             this.panel3.Controls.Add(this.textRelationship);
             this.panel3.Controls.Add(this.textID2);
@@ -144,28 +142,6 @@
             this.radF.TabStop = true;
             this.radF.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::QuanLyNhanSu.Properties.Resources.female_symbol;
-            this.pictureBox1.Location = new System.Drawing.Point(273, 171);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(26, 33);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::QuanLyNhanSu.Properties.Resources.male_symbol;
-            this.pictureBox2.Location = new System.Drawing.Point(187, 172);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(26, 33);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 22;
-            this.pictureBox2.TabStop = false;
-            // 
             // radM
             // 
             this.radM.AutoSize = true;
@@ -180,51 +156,56 @@
             // textRelationship
             // 
             this.textRelationship.BackColor = System.Drawing.Color.White;
+            this.textRelationship.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textRelationship.Location = new System.Drawing.Point(164, 262);
             this.textRelationship.Margin = new System.Windows.Forms.Padding(4);
             this.textRelationship.Name = "textRelationship";
             this.textRelationship.ReadOnly = true;
-            this.textRelationship.Size = new System.Drawing.Size(169, 26);
+            this.textRelationship.Size = new System.Drawing.Size(169, 27);
             this.textRelationship.TabIndex = 30;
             // 
             // textID2
             // 
             this.textID2.BackColor = System.Drawing.Color.White;
+            this.textID2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textID2.Location = new System.Drawing.Point(164, 224);
             this.textID2.Margin = new System.Windows.Forms.Padding(4);
             this.textID2.Name = "textID2";
             this.textID2.ReadOnly = true;
-            this.textID2.Size = new System.Drawing.Size(169, 26);
+            this.textID2.Size = new System.Drawing.Size(169, 27);
             this.textID2.TabIndex = 30;
             // 
             // textDoB
             // 
             this.textDoB.BackColor = System.Drawing.Color.White;
+            this.textDoB.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textDoB.Location = new System.Drawing.Point(164, 137);
             this.textDoB.Margin = new System.Windows.Forms.Padding(4);
             this.textDoB.Name = "textDoB";
             this.textDoB.ReadOnly = true;
-            this.textDoB.Size = new System.Drawing.Size(169, 26);
+            this.textDoB.Size = new System.Drawing.Size(169, 27);
             this.textDoB.TabIndex = 29;
             // 
             // textName
             // 
             this.textName.BackColor = System.Drawing.Color.White;
+            this.textName.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textName.Location = new System.Drawing.Point(164, 98);
             this.textName.Margin = new System.Windows.Forms.Padding(4);
             this.textName.Name = "textName";
             this.textName.ReadOnly = true;
-            this.textName.Size = new System.Drawing.Size(169, 26);
+            this.textName.Size = new System.Drawing.Size(169, 27);
             this.textName.TabIndex = 25;
             // 
             // textID
             // 
             this.textID.BackColor = System.Drawing.Color.White;
+            this.textID.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textID.Location = new System.Drawing.Point(164, 60);
             this.textID.Margin = new System.Windows.Forms.Padding(4);
             this.textID.Name = "textID";
             this.textID.ReadOnly = true;
-            this.textID.Size = new System.Drawing.Size(169, 26);
+            this.textID.Size = new System.Drawing.Size(169, 27);
             this.textID.TabIndex = 24;
             // 
             // label7
@@ -235,9 +216,9 @@
             this.label7.Location = new System.Drawing.Point(21, 225);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(104, 19);
+            this.label7.Size = new System.Drawing.Size(107, 19);
             this.label7.TabIndex = 22;
-            this.label7.Text = "ID Employee";
+            this.label7.Text = "Mã nhân viên";
             // 
             // label5
             // 
@@ -247,9 +228,9 @@
             this.label5.Location = new System.Drawing.Point(21, 138);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(106, 19);
+            this.label5.Size = new System.Drawing.Size(81, 19);
             this.label5.TabIndex = 21;
-            this.label5.Text = "Date of Birth";
+            this.label5.Text = "Ngày sinh";
             // 
             // label8
             // 
@@ -259,21 +240,21 @@
             this.label8.Location = new System.Drawing.Point(21, 263);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(104, 19);
+            this.label8.Size = new System.Drawing.Size(69, 19);
             this.label8.TabIndex = 19;
-            this.label8.Text = "Relationship";
+            this.label8.Text = "Quan hệ";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(21, 175);
+            this.label6.Location = new System.Drawing.Point(21, 180);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 19);
+            this.label6.Size = new System.Drawing.Size(78, 19);
             this.label6.TabIndex = 18;
-            this.label6.Text = "Gender";
+            this.label6.Text = "Giới tính";
             // 
             // label4
             // 
@@ -283,9 +264,9 @@
             this.label4.Location = new System.Drawing.Point(21, 100);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 19);
+            this.label4.Size = new System.Drawing.Size(78, 19);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Name";
+            this.label4.Text = "Họ và tên";
             // 
             // label3
             // 
@@ -295,9 +276,9 @@
             this.label3.Location = new System.Drawing.Point(21, 62);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(27, 19);
+            this.label3.Size = new System.Drawing.Size(108, 19);
             this.label3.TabIndex = 16;
-            this.label3.Text = "ID";
+            this.label3.Text = "Mã thân nhân";
             // 
             // label2
             // 
@@ -308,9 +289,9 @@
             this.label2.Location = new System.Drawing.Point(120, 14);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 26);
+            this.label2.Size = new System.Drawing.Size(111, 26);
             this.label2.TabIndex = 15;
-            this.label2.Text = "Information";
+            this.label2.Text = "Thông tin";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel4
@@ -326,7 +307,7 @@
             this.panel4.Controls.Add(this.btnFree);
             this.panel4.Controls.Add(this.radView);
             this.panel4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.panel4.Location = new System.Drawing.Point(427, 370);
+            this.panel4.Location = new System.Drawing.Point(233, 373);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(357, 141);
@@ -335,10 +316,11 @@
             // textSearch
             // 
             this.textSearch.BackColor = System.Drawing.Color.White;
+            this.textSearch.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textSearch.Location = new System.Drawing.Point(199, 46);
             this.textSearch.Margin = new System.Windows.Forms.Padding(4);
             this.textSearch.Name = "textSearch";
-            this.textSearch.Size = new System.Drawing.Size(135, 26);
+            this.textSearch.Size = new System.Drawing.Size(135, 27);
             this.textSearch.TabIndex = 25;
             // 
             // butSearch
@@ -350,7 +332,7 @@
             this.butSearch.Name = "butSearch";
             this.butSearch.Size = new System.Drawing.Size(136, 37);
             this.butSearch.TabIndex = 5;
-            this.butSearch.Text = "Search Mode";
+            this.butSearch.Text = "Tìm kiếm";
             this.butSearch.UseVisualStyleBackColor = true;
             this.butSearch.Click += new System.EventHandler(this.butSearch_Click);
             // 
@@ -363,7 +345,7 @@
             this.butDel.Name = "butDel";
             this.butDel.Size = new System.Drawing.Size(89, 37);
             this.butDel.TabIndex = 5;
-            this.butDel.Text = "Delete";
+            this.butDel.Text = "Xóa";
             this.butDel.UseVisualStyleBackColor = true;
             this.butDel.Click += new System.EventHandler(this.butDel_Click);
             // 
@@ -371,12 +353,12 @@
             // 
             this.radAdd.AutoSize = true;
             this.radAdd.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radAdd.Location = new System.Drawing.Point(21, 67);
+            this.radAdd.Location = new System.Drawing.Point(21, 71);
             this.radAdd.Margin = new System.Windows.Forms.Padding(4);
             this.radAdd.Name = "radAdd";
-            this.radAdd.Size = new System.Drawing.Size(59, 23);
+            this.radAdd.Size = new System.Drawing.Size(71, 23);
             this.radAdd.TabIndex = 4;
-            this.radAdd.Text = "Add";
+            this.radAdd.Text = "Thêm";
             this.radAdd.UseVisualStyleBackColor = true;
             this.radAdd.CheckedChanged += new System.EventHandler(this.radAdd_CheckedChanged);
             // 
@@ -384,12 +366,12 @@
             // 
             this.radEdit.AutoSize = true;
             this.radEdit.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radEdit.Location = new System.Drawing.Point(21, 91);
+            this.radEdit.Location = new System.Drawing.Point(21, 100);
             this.radEdit.Margin = new System.Windows.Forms.Padding(4);
             this.radEdit.Name = "radEdit";
-            this.radEdit.Size = new System.Drawing.Size(62, 23);
+            this.radEdit.Size = new System.Drawing.Size(57, 23);
             this.radEdit.TabIndex = 4;
-            this.radEdit.Text = "Edit";
+            this.radEdit.Text = "Sửa";
             this.radEdit.UseVisualStyleBackColor = true;
             this.radEdit.CheckedChanged += new System.EventHandler(this.radAdd_CheckedChanged);
             // 
@@ -401,9 +383,9 @@
             this.label1.Location = new System.Drawing.Point(150, 14);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 26);
+            this.label1.Size = new System.Drawing.Size(84, 26);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Mode";
+            this.label1.Text = "Chế độ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnFree
@@ -416,7 +398,7 @@
             this.btnFree.Name = "btnFree";
             this.btnFree.Size = new System.Drawing.Size(89, 37);
             this.btnFree.TabIndex = 0;
-            this.btnFree.Text = "View";
+            this.btnFree.Text = "Xem";
             this.btnFree.UseVisualStyleBackColor = true;
             this.btnFree.Click += new System.EventHandler(this.btnFree_Click);
             // 
@@ -429,12 +411,32 @@
             this.radView.Location = new System.Drawing.Point(21, 41);
             this.radView.Margin = new System.Windows.Forms.Padding(4);
             this.radView.Name = "radView";
-            this.radView.Size = new System.Drawing.Size(67, 23);
+            this.radView.Size = new System.Drawing.Size(64, 23);
             this.radView.TabIndex = 2;
             this.radView.TabStop = true;
-            this.radView.Text = "View";
+            this.radView.Text = "Xem";
             this.radView.UseVisualStyleBackColor = false;
             this.radView.CheckedChanged += new System.EventHandler(this.radAdd_CheckedChanged);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label9.Location = new System.Drawing.Point(185, 180);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(41, 19);
+            this.label9.TabIndex = 33;
+            this.label9.Text = "Nam";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label10.Location = new System.Drawing.Point(271, 180);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(30, 19);
+            this.label10.TabIndex = 34;
+            this.label10.Text = "Nữ";
             // 
             // frmThanNhan
             // 
@@ -454,8 +456,6 @@
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.ResumeLayout(false);
@@ -492,7 +492,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnFree;
         private System.Windows.Forms.TextBox textRelationship;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
     }
 }

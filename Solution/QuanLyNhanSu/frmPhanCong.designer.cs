@@ -59,7 +59,7 @@
             this.panel2.Controls.Add(this.listView1);
             this.panel2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.panel2.Location = new System.Drawing.Point(24, 41);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(324, 276);
             this.panel2.TabIndex = 26;
@@ -71,11 +71,12 @@
             this.columnHeader1,
             this.columnHeader2});
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(0, 0);
-            this.listView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(324, 276);
@@ -86,12 +87,12 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Employee ID";
+            this.columnHeader1.Text = "Mã nhân viên";
             this.columnHeader1.Width = 120;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Project ID";
+            this.columnHeader2.Text = "Mã đề án";
             this.columnHeader2.Width = 117;
             // 
             // panel3
@@ -107,7 +108,7 @@
             this.panel3.Controls.Add(this.label2);
             this.panel3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.panel3.Location = new System.Drawing.Point(380, 41);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(357, 275);
             this.panel3.TabIndex = 25;
@@ -115,31 +116,34 @@
             // textID2
             // 
             this.textID2.BackColor = System.Drawing.Color.White;
+            this.textID2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textID2.Location = new System.Drawing.Point(131, 127);
-            this.textID2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textID2.Margin = new System.Windows.Forms.Padding(4);
             this.textID2.Name = "textID2";
             this.textID2.ReadOnly = true;
-            this.textID2.Size = new System.Drawing.Size(185, 26);
+            this.textID2.Size = new System.Drawing.Size(185, 27);
             this.textID2.TabIndex = 27;
             // 
             // textTime
             // 
             this.textTime.BackColor = System.Drawing.Color.White;
+            this.textTime.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textTime.Location = new System.Drawing.Point(131, 164);
-            this.textTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textTime.Margin = new System.Windows.Forms.Padding(4);
             this.textTime.Name = "textTime";
             this.textTime.ReadOnly = true;
-            this.textTime.Size = new System.Drawing.Size(185, 26);
+            this.textTime.Size = new System.Drawing.Size(185, 27);
             this.textTime.TabIndex = 25;
             // 
             // textID
             // 
             this.textID.BackColor = System.Drawing.Color.White;
+            this.textID.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.textID.Location = new System.Drawing.Point(131, 89);
-            this.textID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textID.Margin = new System.Windows.Forms.Padding(4);
             this.textID.Name = "textID";
             this.textID.ReadOnly = true;
-            this.textID.Size = new System.Drawing.Size(185, 26);
+            this.textID.Size = new System.Drawing.Size(185, 27);
             this.textID.TabIndex = 24;
             // 
             // label8
@@ -150,9 +154,9 @@
             this.label8.Location = new System.Drawing.Point(25, 167);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(52, 22);
+            this.label8.Size = new System.Drawing.Size(89, 22);
             this.label8.TabIndex = 19;
-            this.label8.Text = "Time";
+            this.label8.Text = "Thời gian";
             // 
             // label4
             // 
@@ -162,9 +166,9 @@
             this.label4.Location = new System.Drawing.Point(25, 130);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 22);
+            this.label4.Size = new System.Drawing.Size(58, 22);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Project";
+            this.label4.Text = "Đề án";
             // 
             // label3
             // 
@@ -174,9 +178,9 @@
             this.label3.Location = new System.Drawing.Point(25, 92);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 22);
+            this.label3.Size = new System.Drawing.Size(92, 22);
             this.label3.TabIndex = 16;
-            this.label3.Text = "Employee";
+            this.label3.Text = "Nhân viên";
             // 
             // label2
             // 
@@ -186,9 +190,9 @@
             this.label2.Location = new System.Drawing.Point(125, 23);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 26);
+            this.label2.Size = new System.Drawing.Size(111, 26);
             this.label2.TabIndex = 15;
-            this.label2.Text = "Information";
+            this.label2.Text = "Thông tin";
             // 
             // panel4
             // 
@@ -203,8 +207,8 @@
             this.panel4.Controls.Add(this.btnFree);
             this.panel4.Controls.Add(this.radView);
             this.panel4.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.panel4.Location = new System.Drawing.Point(380, 330);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Location = new System.Drawing.Point(191, 341);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(357, 153);
             this.panel4.TabIndex = 24;
@@ -212,21 +216,23 @@
             // textSearch
             // 
             this.textSearch.BackColor = System.Drawing.Color.White;
-            this.textSearch.Location = new System.Drawing.Point(204, 55);
-            this.textSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textSearch.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.textSearch.Location = new System.Drawing.Point(204, 50);
+            this.textSearch.Margin = new System.Windows.Forms.Padding(4);
+            this.textSearch.Multiline = true;
             this.textSearch.Name = "textSearch";
-            this.textSearch.Size = new System.Drawing.Size(135, 26);
+            this.textSearch.Size = new System.Drawing.Size(135, 37);
             this.textSearch.TabIndex = 25;
             // 
             // butSearch
             // 
             this.butSearch.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.butSearch.Location = new System.Drawing.Point(204, 97);
-            this.butSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butSearch.Margin = new System.Windows.Forms.Padding(4);
             this.butSearch.Name = "butSearch";
             this.butSearch.Size = new System.Drawing.Size(136, 37);
             this.butSearch.TabIndex = 5;
-            this.butSearch.Text = "Search Mode";
+            this.butSearch.Text = "Tìm kiếm";
             this.butSearch.UseVisualStyleBackColor = true;
             this.butSearch.Click += new System.EventHandler(this.butSearch_Click);
             // 
@@ -234,11 +240,11 @@
             // 
             this.butDel.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.butDel.Location = new System.Drawing.Point(107, 97);
-            this.butDel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.butDel.Margin = new System.Windows.Forms.Padding(4);
             this.butDel.Name = "butDel";
             this.butDel.Size = new System.Drawing.Size(89, 37);
             this.butDel.TabIndex = 5;
-            this.butDel.Text = "Delete";
+            this.butDel.Text = "Xóa";
             this.butDel.UseVisualStyleBackColor = true;
             this.butDel.Click += new System.EventHandler(this.butDel_Click);
             // 
@@ -247,11 +253,11 @@
             this.radAdd.AutoSize = true;
             this.radAdd.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radAdd.Location = new System.Drawing.Point(25, 78);
-            this.radAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radAdd.Margin = new System.Windows.Forms.Padding(4);
             this.radAdd.Name = "radAdd";
-            this.radAdd.Size = new System.Drawing.Size(59, 23);
+            this.radAdd.Size = new System.Drawing.Size(71, 23);
             this.radAdd.TabIndex = 4;
-            this.radAdd.Text = "Add";
+            this.radAdd.Text = "Thêm";
             this.radAdd.UseVisualStyleBackColor = true;
             this.radAdd.CheckedChanged += new System.EventHandler(this.radView_CheckedChanged);
             // 
@@ -260,11 +266,11 @@
             this.radEdit.AutoSize = true;
             this.radEdit.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radEdit.Location = new System.Drawing.Point(25, 103);
-            this.radEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radEdit.Margin = new System.Windows.Forms.Padding(4);
             this.radEdit.Name = "radEdit";
-            this.radEdit.Size = new System.Drawing.Size(62, 23);
+            this.radEdit.Size = new System.Drawing.Size(57, 23);
             this.radEdit.TabIndex = 4;
-            this.radEdit.Text = "Edit";
+            this.radEdit.Text = "Sửa";
             this.radEdit.UseVisualStyleBackColor = true;
             this.radEdit.CheckedChanged += new System.EventHandler(this.radView_CheckedChanged);
             // 
@@ -276,20 +282,20 @@
             this.label1.Location = new System.Drawing.Point(145, 10);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 26);
+            this.label1.Size = new System.Drawing.Size(84, 26);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Mode";
+            this.label1.Text = "Chế độ";
             // 
             // btnFree
             // 
             this.btnFree.Enabled = false;
             this.btnFree.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnFree.Location = new System.Drawing.Point(107, 50);
-            this.btnFree.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnFree.Margin = new System.Windows.Forms.Padding(4);
             this.btnFree.Name = "btnFree";
             this.btnFree.Size = new System.Drawing.Size(89, 37);
             this.btnFree.TabIndex = 0;
-            this.btnFree.Text = "View";
+            this.btnFree.Text = "Xem";
             this.btnFree.UseVisualStyleBackColor = true;
             this.btnFree.Click += new System.EventHandler(this.btnFree_Click);
             // 
@@ -299,12 +305,12 @@
             this.radView.Checked = true;
             this.radView.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radView.Location = new System.Drawing.Point(25, 53);
-            this.radView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radView.Margin = new System.Windows.Forms.Padding(4);
             this.radView.Name = "radView";
-            this.radView.Size = new System.Drawing.Size(67, 23);
+            this.radView.Size = new System.Drawing.Size(64, 23);
             this.radView.TabIndex = 2;
             this.radView.TabStop = true;
-            this.radView.Text = "View";
+            this.radView.Text = "Xem";
             this.radView.UseVisualStyleBackColor = true;
             this.radView.CheckedChanged += new System.EventHandler(this.radView_CheckedChanged);
             // 
@@ -317,7 +323,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmPhanCong";
             this.Text = "Phân Công";
             this.Load += new System.EventHandler(this.frmPhanCong_Load);
